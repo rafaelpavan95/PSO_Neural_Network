@@ -115,4 +115,13 @@ def PSO_optimizer(X_train, X_test, y_train, y_test, neural_network, c1=2, c2=2, 
         acc_train.append(np.sum(y_train == np.argmax(train_probs,axis=1))/len(y_train)*100)
         acc_test.append(np.sum(y_test == np.argmax(test_probs,axis=1))/len(y_test)*100)
 
-    return gbest_train_val, gbest_test_val, gbest_list, acc_train, acc_test
+    results=    {
+                
+                'train_acc': acc_train,
+                'test_acc': acc_test,
+                'list_gbest': gbest_list,
+                'train_loss': gbest_train_val,
+                'test_loss': gbest_test_val
+                }
+
+    return results

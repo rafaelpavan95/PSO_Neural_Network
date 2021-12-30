@@ -2,7 +2,7 @@ import numpy as np
 
 class neural_network():
 
-    def __init__(self, n_hidden_layer=1, n_neurons_hl1=16, n_neurons_hl2=8, n_input=4, n_output=3, dropout_prob=None, regularization_factor = 0):
+    def __init__(self, n_hidden_layer=2, n_neurons_hl1=16, n_neurons_hl2=8, n_input=4, n_output=3, dropout_prob=None, regularization_factor = 0):
         
         '''
  
@@ -167,6 +167,7 @@ class neural_network():
         print("Architecture: \n")
         print(f"- {self.n_hidden_layer} Hidden Layers; \n")
         print(f"- Hidden Layer 1: {self.n_neurons_hl1} neurons, activation function: tanh; \n")
+        print(f"- Hidden Layer 2: {self.n_neurons_hl2} neurons, activation function: tanh; \n")
         print(f"- Output: {self.n_output} neurons, activation function: softmax; \n")
         print(f"- Loss Function:  Negative Log-Likelihood Loss; \n")
         print(f"- Dropout Probability: {self.dropout_prob} \n")
