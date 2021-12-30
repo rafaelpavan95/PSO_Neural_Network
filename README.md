@@ -5,7 +5,7 @@ Development of a simple FeedForward Neural Network Optimized by Evolutionary Com
 
 ## [Particle Swarm Optimization Algorithm](https://github.com/rafaelpavan95/PSO_Neural_Network/blob/main/particle_swarm_optimization.py)
 
-## [Feed Forward Neural Network Algorithm](https://github.com/rafaelpavan95/PSO_Neural_Network/blob/main/neural.py)
+## [FeedForward Neural Network Algorithm](https://github.com/rafaelpavan95/PSO_Neural_Network/blob/main/neural.py)
 
 ## [Project Notebook](https://github.com/rafaelpavan95/PSO_Neural_Network/blob/main/notebook.ipynb)
 
